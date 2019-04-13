@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Homepage</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            
+            
+            <div class="inner_header" >
+				<div class="header_links">
+                    <a href="setting.html">Setting</a>
+                </div>
+                <div class="logo">
+                    <a href='index.html'> People's Library</a>
+                </div>
+                <div class="header_links">
+                    <a href="login.html">Login</a>
+                </div>
+                <div class="header_links">
+                    <a href="signup.html">Signup</a>
+                </div>
+                <div class="header_links">
+                    <a href="about.html">About us</a>
+                </div>
+				
+                
+            </div>
+        </div>
+        <div style="background-color: rgba(0,0,0,0.2);">
+		<div class="setting" style="height:450px; ">
+		 
+		
+		<input type="text" name="color" placeholder="Background Color" id="bcolor" >
+		<input type="submit" value="Change" onclick="change()" style="background:linear-gradient(45DEG,#FFE985 ,#FA742B);font-family:sans-serif;">
+		<input type="submit" value="Reset Settings" onclick="reset()" style="background:linear-gradient(45DEG,#FFE985 ,#FA742B);font-family:sans-serif;">
+		</div>
+		</div>
+		<footer>
+        
+            <p >Copyright  &#169; People's Library . All Rights Reserved | Contact Us: +91 90000 00000 | Mail Us : libraryforall@lib.edu</p>
+
+        </footer>
+		<script>
+			var c=document.getElementById("bcolor");
+			function change(){
+			if(c.value){
+			localStorage.setItem("bcolor",c.value);
+			}
+			else{
+				alert("Enter a color first");
+			}
+			}
+		</script>
+		<script>
+			var d=localStorage.getItem('bcolor');
+			document.body.style.backgroundColor=d;
+			function reset(){
+			localStorage.removeItem('bcolor');
+			}
+		</script>
+		
+	</body>
+</html>

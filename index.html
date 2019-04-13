@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Homepage</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            
+            <div class="inner_header" >
+				<div class="header_links">
+                    <a href="setting.html">Setting</a>
+                </div>
+                <div class="logo">
+                    <a href='index.html'> People's Library</a>
+                </div>
+                <div class="header_links">
+                    <a href="login.html">Login</a>
+                </div>
+                <div class="header_links">
+                    <a href="signup.html">Signup</a>
+                </div>
+                <div class="header_links">
+                    <a href="about.html">About us</a>
+                </div>
+				
+                
+            </div>
+        </div>
+        
+        <div class='content'>
+            <div class='banner-image'>
+                <div class='inner-banner'>
+                    <div class="banner-content">
+                        <h1>We supply books,for rent and sale.</h1>
+                        <p style="padding-left: 20%;">Flat 40% off on premium books.</p>
+                        <br>
+<!--                        <input type="button" value="Explore" style="margin-left: 30%; padding:15px;" id="but">-->
+<button class="button" style="vertical-align:middle; margin-left: 210px; margin-bottom: 10px" ><span><a href='products.html' style='text-decoration: none'>Explore</a> </span></button>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="container">
+            <a href="#">
+                <div class="thumbnail">
+                    <img src="fiction.jpeg">
+                    <h3>Fiction</h3>
+                    <p>Get lost in the depths of unreality.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="thumbnail">
+                    <img src="novel.jpeg">
+                    <h3>Novels</h3>
+                    <p>Novels teach us lessons world can't.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="thumbnail">
+                    <img src="comp.jpeg">
+                    <h3>Competitive</h3>
+                    <p>Ace your exams this year.</p>
+                </div>
+            </a>
+        </div>
+        <footer>
+        
+            <p >Copyright  &#169; People's Library . All Rights Reserved | Contact Us: +91 90000 00000 | Mail Us : libraryforall@lib.edu</p>
+
+        </footer>
+		
+		<script>
+			var d=localStorage.getItem('bcolor');
+			document.body.style.backgroundColor=d;
+			
+			
+		</script>
+    </body>
+</html>
