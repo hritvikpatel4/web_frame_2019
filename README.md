@@ -4,7 +4,7 @@ The backend functionality including login,signup and admin features is done usin
 
 To view all the project files, please follow the following steps.
 <ul>
-  <li>Use any unzip tool(preferably WinRAR)</li>
+  <li>Use any unzip tool(preferably WinRAR, executable file is provided in the repository named as "winrar-x64-570.exe")</li>
   <li>Unzip the file named "myvenv.zip" only. Wait for the process to finish.</li>
   <li>Do not unzip "myvenv.z01".</li>
  </ul>
