@@ -11,6 +11,6 @@ To view all the project files, please follow the following steps.
   <li>After the above process, all the files will be available used to build the site.</li>
  </ul>
 
-Done by:<br/>
+<b>Done by:</b><br/>
 <i>PES1201700125 - Hritvik Patel<br/>
 PES1201700180 - Amogh Rajesh<br/></i>
