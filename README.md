@@ -12,5 +12,5 @@ To view all the project files, please follow the following steps.
  </ul>
 
 Done by:<br/>
-PES1201700125 - Hritvik Patel<br/>
-PES1201700180 - Amogh Rajesh
+<i>PES1201700125 - Hritvik Patel<br/>
+PES1201700180 - Amogh Rajesh<br/></i>
