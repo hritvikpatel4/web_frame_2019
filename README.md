@@ -1,7 +1,7 @@
 # web_frame_2019
 This is our web frameworks project which is based on a Library Management System. The look and feel is achieved by CSS,JS and HTML.<br/>
 The backend functionality including login,signup and admin features is done using Django. In Django we've designed two models namely Login and Signup. Please check urls.py for all url patterns.<br/>
-The project is hosted at amoghrajesh.pythonanywhere.com
+The project is hosted at <a href="amoghrajesh.pythonanywhere.com" rel="nofollow">pythonanywhere.com</a>
 
 To view all the project files, please follow the following steps.
 <ul>
