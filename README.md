@@ -6,7 +6,7 @@ The presentation can be found <a href="Web Frameworks Project.pdf" rel="nofollow
 
 To view all the project files, please follow the following steps.
 <ul>
-  <li>Use any unzip tool(preferably WinRAR, file is provided in the repository named as "winrar-x64-570.exe" <b>or</b> <a href="winrar-x64-570.exe" rel="nofollow"><i>here</i></a>)</li>
+  <li>Use any unzip tool(preferably WinRAR, file can be found <a href="winrar-x64-570.exe" rel="nofollow"><i>here</i></a>)</li>
   <li>Unzip the file named "myvenv.zip" only. Wait for the process to finish.</li>
   <li>Do not unzip "myvenv.z01".</li>
   <li>After the above process, all the files will be available used to build the site.</li>
